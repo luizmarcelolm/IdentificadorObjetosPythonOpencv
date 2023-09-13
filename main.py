@@ -18,7 +18,7 @@ def abrirWebCam():
      cv2.namedWindow(winName, cv2.WINDOW_NORMAL)
      cv2.setWindowProperty(winName, cv2.WND_PROP_VISIBLE, cv2.WINDOW_FULLSCREEN)
      #acessa a câmera nesse endereço de ip
-     cap = cv2.VideoCapture("https://192.168.15.6:8080/video")
+     cap = cv2.VideoCapture(0)
 
 #chamada a função para abrir página
 abrirPaginaNotebook()
