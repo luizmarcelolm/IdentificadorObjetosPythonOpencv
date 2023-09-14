@@ -7,7 +7,9 @@ def anexarArquivoNotebook():
       time.sleep(2)
       pyautogui.click(773, 685)
       time.sleep(2)
-      pyautogui.doubleClick(323, 204)
+      pyautogui.doubleClick(127, 160)
       time.sleep(2)
-      pyautogui.click(1842, 930)
+      pyautogui.doubleClick(314, 200)
+      time.sleep(2)
+      pyautogui.click(1341, 952)
       

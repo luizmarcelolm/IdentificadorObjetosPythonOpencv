@@ -20,6 +20,13 @@ def abrirWebCam():
      #acessa a câmera nesse endereço de ip
      cap = cv2.VideoCapture(0)
 
+def teste():
+      time.sleep(5)
+      currenrMouseX, currentMouseY = pyautogui.position()
+      print(currenrMouseX, currentMouseY)
+      time.sleep(20)
+#teste()
+
 #chamada a função para abrir página
 abrirPaginaNotebook()
 
@@ -84,19 +91,18 @@ while True:
 
                     #caso for detectado um celular inicia o processo de captura e envio para whatAppWeb
                     if verificacao == "cell phone":
-                        fecharWebCam() 
-                        print("webcam fechada")
-                        print("objeto detectado, iniciando processo...")
+                        fecharWebCam()  
+                        print("Objeto detectado, câmera fechada, iniciando processo...")
                         time.sleep(2)
                         salvarFoto()
-                        print("foto salva")
-                        print("anexando foto")
+                        print("Foto salva OK")
+                        print("Anexando foto no contato...")
                         anexarArquivoNotebook()
-                        print("foto enviada") 
+                        print("Foto enviada OK") 
                         time.sleep(3)
-                        print("abrindo webcam") 
+                        print("Abrindo webcam...") 
                         abrirWebCam()    
-                        print("webcam aberta")                  
+                        print("Webcam aberta OK")                  
                     else:
                         cv2.putText(frame, tudoOk, (0, 25), cv2.FONT_HERSHEY_SIMPLEX, 1, (34, 139, 34), 3)                                     
     
