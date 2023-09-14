@@ -16,7 +16,7 @@
 # Nesse trecho coloca um retangulo colorido nos objetos identificados e classifica com o nome deles.
 ![image](https://github.com/luizmarcelolm/IdentificadorObjetosPythonOpencv/assets/109484017/c568fc76-a300-40e1-a00c-1180be6e7899)
 
-# Nesta condição verifica se o objeto é um celular, caso for chama outra finção fazer o print, salvar e enviar para whaAppWeb
+# Nesta condição verifica se o objeto é um celular, caso for chama outra função fazer o print, salvar e enviar para whaAppWeb
 ![image](https://github.com/luizmarcelolm/IdentificadorObjetosPythonOpencv/assets/109484017/62f87e2a-57bc-404d-95ad-6a11a0b3bb02)
 
 
